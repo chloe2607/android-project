@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/home_scan_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scanne un QRcode"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <Button
+        android:id="@+id/home_recherche_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rechercher un film"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="254dp" />
+</LinearLayout>
