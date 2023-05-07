@@ -122,5 +122,13 @@
         app:layout_constraintVertical_bias="0.097"
         tools:srcCompat="@tools:sample/avatars" />
 
+    <Button
+        android:id="@+id/details_film_recommandation_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Afficher les recommandations"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="637dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
