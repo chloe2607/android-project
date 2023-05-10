@@ -28,7 +28,7 @@ class DetailsFilmActivity : AppCompatActivity(){
 
         val film = intent.extras?.get("film") as? Film
 
-        TitreTextView.text = film?.titre ?: "Non renseigné"
+        //TitreTextView.text = film?.titre ?: "Non renseigné"
 
         imageView = findViewById<ImageView>(R.id.details_film_imageview)
     }
